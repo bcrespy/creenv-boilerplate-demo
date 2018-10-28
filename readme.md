@@ -4,7 +4,7 @@
 
 If you want an in depth guide about creenv, [please check @creenv list of ressources](https://github.com/bcrespy/creenv). The [**learning table**](https://github.com/bcrespy/creenv/blob/master/learning-table.md) is the best resource to understand how to use creenv.
 
-To understand how the boilerplate works, [**check the learning table pt.3: Boilerplate in details**](http://google.com).
+To understand how the boilerplate works, [**check the learning table pt.4: Boilerplate in details**](https://github.com/bcrespy/creenv/blob/master/learning-table/4-boilerplate).
 
 ## Commands 
 
