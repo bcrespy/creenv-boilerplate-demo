@@ -1,12 +1,12 @@
 /**
- * This is the demonstration project, it is installed when running the command 
+ * This is the demonstration project, it is installed when runing the command 
  * create-creenv --mode demo
  * 
  * Hello. Welcome to the creative environment This project showcases the functionnalities of creenv and can be used as a good
  * starting point for learning creenv. However, it is still recommended that you take at look at the Learning Table, a central
  * document where all the basic informations and links to more detailed ones about creenv can be found. 
  * 
- * <insert_link_to_learning_table_here>
+ * <https://github.com/bcrespy/creenv/blob/master/learning-table.md>
  * 
  * By reading the code and the readme.md, you should be able to understand how creenv works and how you can work with creenv 
  * to ease the development process and focus only on your creative ideas :)
@@ -81,7 +81,6 @@ class MyProject extends Creenv {
      * accessible variables within creenv by going to the Learning table.
      */
     this.renderer.render(this.deltaT, this.elapsedTime);
-    console.log(this.elapsedTime);
 
     this.stats.end();
   }
@@ -93,14 +92,15 @@ class MyProject extends Creenv {
  * that cannot be overwrittent, which handles the correct behavior of the beginning of the rendering process.
  */
 let project = new MyProject();
-//project.bootstrap(); 
+project.bootstrap(); 
 
 
 /**
- * this is the only required line to be able to export your work as a video file. however, you will need to comment the 
- * .bootstrap() method call just below to prevent the regular behaviour of the rendering loop. this is all explained in the 
- * Capture section within the Learning table
- * /!\ capture will look for canvas in options (not the case here), then first canvas with class `creenv`, then first canvas
+ * this is the only required line to be able to export your work as a video file. 
+ * /!\ however, you will need to comment the  .bootstrap() method call just below to prevent the regular behaviour of the 
+ * rendering loop. 
+ * 
+ * this is all explained in the Capture section within the Learning table
  */
 
-let capture = new Capture(project);
+// let capture = new Capture(project);
